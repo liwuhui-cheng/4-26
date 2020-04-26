@@ -11,6 +11,7 @@ public class CenterConfig {
     //注册中心提供者
     public static void main(String[] args) {
 
+
         SpringApplication.run(CenterConfig.class,args);
 
     }
