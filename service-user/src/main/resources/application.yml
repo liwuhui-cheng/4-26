@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: service-user
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/TL-Lu/lutenglong-springcloud-0423.git
+          skipSslValidation: true
+          search-paths:
+            - configfiles
+      label: config
+#相关服务地址，服务名称，远程仓库地址
